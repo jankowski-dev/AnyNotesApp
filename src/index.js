@@ -14,5 +14,5 @@ root.render(
   </React.StrictMode>
 );
 
-const test = 'P';
+const test = '';
 reportWebVitals();
