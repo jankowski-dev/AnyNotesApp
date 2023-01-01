@@ -1,0 +1,41 @@
+
+
+/************* Base flex ******************
+*****************************************/
+
+%flex-column-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+%flex-row-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+%flex-row-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+/************* Other ******************
+*****************************************/
+
+%relative-to-toning {
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+%absulute-toning {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -9999;
+}
+
