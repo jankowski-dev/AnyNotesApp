@@ -53,6 +53,26 @@ li {
     @extend %absulute-toning;
     background: $basic-toner-color;
     height: 100vh;
+    transition: 0.9s;
+}
+
+/* Style popup universlal window */
+
+.PopUp {
+    @extend %absulute-toning;
+    background: $basic-toner-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    opacity: 0;
+}
+
+.PopUpActive {
+    opacity: 1;
+    z-index: 9999;
+    transition: 1s;
 }
 
 .MainHeader {
@@ -137,6 +157,7 @@ li {
     align-items: center;
     justify-content: center;
     z-index: 99999;
+    top: -10000px;
     transition: .4s;
 }
 
@@ -184,8 +205,3 @@ li {
 //     cursor: pointer;
 //     fill: $tomato-color;
 // }
-
-
-
-
-

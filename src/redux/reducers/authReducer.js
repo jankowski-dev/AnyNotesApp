@@ -4,7 +4,7 @@ const SET_EVENT_CLICK = "SET_EVENT_CLICK";
 const SET_EVENT_NOT_CLICK = "SET_EVENT_NOT_CLICK";
 
 let initialState = {
-  isActive: null,
+  isActive: false,
   isClick: null,
 };
 
@@ -15,7 +15,7 @@ export const authReducer = (state = initialState, action) => {
 
 
   if (action.type === SET_ACTIVE_LOGIN_FORM) {
-      stateCopy.isActive = true;
+      stateCopy.isActive = action.data;
       return stateCopy;
   }
 

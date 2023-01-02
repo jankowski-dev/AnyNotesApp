@@ -3,14 +3,12 @@
 
 const SignInForm = (props) => {
     return (
-        <div className="containerForm">
-            <div className="form">
+
+            <div className="form" onClick={e => e.stopPropagation()}>
                 <div className="formHeader">
-                <div onClick={props.setNoActive} className="formButtonClose">X</div>
+                <div onClick={() => props.setActive(props.isActive)} className="formButtonClose">X</div>
                 </div>
-                
             </div>
-        </div>
     )
 }
 

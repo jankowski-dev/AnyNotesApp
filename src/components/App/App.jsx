@@ -15,12 +15,14 @@ const App = (props) => {
   return (
     <div className="MainContainer">
       <div className="MainToning"></div>
-      {props.content.isActive == true ? <SignInForm setNoActive={props.setNoActive} /> : null}
+      <div className={props.content.isActive === false ? "PopUp" : "PopUp PopUpActive"} onClick={() => props.setActive(false)}>
+      <SignInForm isActive={props.content.isActive} setActive={props.setActive}/>
+        </div>
       <div className="MainHeader">
         <Logo />
         <div className="buttonWrap">
           <Language />
-          <SignIn setActive={props.setActive} setEventClick={props.setEventClick} setEventNotClick={props.setEventNotClick} content={props.content} />
+          <SignIn setActive={props.setActive} isActive={props.content.isActive} content={props.content} />
         </div>
       </div>
 
