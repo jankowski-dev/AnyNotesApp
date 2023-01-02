@@ -1,8 +1,8 @@
 import { combineReducers, legacy_createStore as createStore } from "redux";
-import { authReducer } from "./reducers/authReducer";
+import { modalReducer } from "./reducers/modalReducer";
 
 let reducers = combineReducers({
-  auth: authReducer,
+  modal: modalReducer,
 });
 
 let store = createStore(reducers);

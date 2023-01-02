@@ -1,4 +1,4 @@
-import { LanguageSVG } from "../../image/svg/librarySVG";
+import { LanguageSVG } from "./../image/svg/librarySVG";
 
 
 const Language = () => {

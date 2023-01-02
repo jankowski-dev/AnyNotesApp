@@ -1,7 +1,7 @@
 
 
 
-import { LogoSVG } from "../../image/svg/librarySVG";
+import { LogoSVG } from "./../image/svg/librarySVG";
 
 
 const Logo = () => {

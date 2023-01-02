@@ -1,5 +1,5 @@
 
-import { TwitterSVG, DribbbleSVG, GithubSVG } from "../../image/svg/librarySVG";
+import { TwitterSVG, DribbbleSVG, GithubSVG } from "./../image/svg/librarySVG";
 
 
 

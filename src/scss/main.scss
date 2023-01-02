@@ -117,17 +117,6 @@ li {
     user-select: none;
 }
 
-.buttonMainClick {
-    @extend %flex-row-between;
-    align-items: center;
-    padding: 7px 12px;
-    border: 1px solid #8B8B8B;
-    border-radius: 6px;
-    width: auto;
-    margin: 3px 13px;
-    user-select: none;
-}
-
 .buttonTitle {
     font-weight: 400;
     font-size: 14px;
@@ -148,60 +137,9 @@ li {
     cursor: pointer;
 }
 
-.containerForm {
-    @extend %absulute-toning;
-    height: 100vh;
-    background: $basic-toner-color-popup;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    z-index: 99999;
-    top: -10000px;
-    transition: .4s;
-}
-
 .form {
     width: 500px;
     height: 350px;
     padding: 25px;
     background-color: white;
 }
-
-.formHeader {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.formButtonClose {
-    cursor: pointer;
-}
-
-
-
-
-
-
-
-
-
-
-
-// .iconMenu {
-//     width: 22px;
-//     height: 22px;
-//     fill: #fff;
-//     transition: 0.4s;
-//     margin-right: 40px;
-// }
-
-// .iconMenu:last-child {
-//     margin-right: 0;
-//     width: 24px;
-//     height: 24px;
-// }
-
-// .iconMenu:hover{
-//     cursor: pointer;
-//     fill: $tomato-color;
-// }
