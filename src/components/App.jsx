@@ -14,12 +14,11 @@ const App = (props) => {
 
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<HomePageContainer/>} />
-      <Route path="/storage" element={<StorageContainer/>} />
-    </Routes>
-  </BrowserRouter>
-
+      <Routes>
+        <Route path="/" element={<HomePageContainer />} />
+        <Route path="/storage" element={<StorageContainer />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

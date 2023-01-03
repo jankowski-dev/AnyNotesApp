@@ -20,7 +20,7 @@ const mapDispatchToProps = (dispatch) => {
 
 const HomePageWithModal = (props) => {
     return (
-      <HomePage {...props}/>
+        <HomePage {...props} />
     )
 }
 
