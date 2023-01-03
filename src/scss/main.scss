@@ -136,7 +136,25 @@ li {
 
 .form {
   max-width: 500px;
-  height: 350px;
-  padding: 25px;
+  padding: 50px 60px;
   background-color: white;
+}
+
+.form-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-tab {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  color: #b3b3b3;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.header-tab__active {
+  color: $basic-black;
 }
