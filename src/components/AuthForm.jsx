@@ -16,13 +16,9 @@ const AuthForm = (props) => {
           Sign Up
         </div>
       </div>
-      {/* {props.state.activeTab === "login" ? <Login {...props} /> : null}
-      {props.state.activeTab === "register" ? <Register {...props} /> : null} */}
-      <div className={props.state.activeTab === "login" ? "form-fill form-fill__active" : "form-fill"}>
-        <Login {...props} />
-      </div>
-      <div className={props.state.activeTab === "register" ? "form-fill form-fill__active" : "form-fill"}>
-        <Register {...props} />
+      <div className="form-content">
+        {props.state.activeTab === "login" ? <Login {...props} /> : null}
+        {props.state.activeTab === "register" ? <Register {...props} /> : null}
       </div>
     </div>
   );

@@ -1,17 +1,13 @@
-import './../scss/main.scss';
-import './../scss/media.scss';
+import "./../scss/main.scss";
+import "./../scss/media.scss";
 
 import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 
-import HomePageContainer from './HomePageContainer'
-import StorageContainer from './StorageContainer';
-
-
-
+import HomePageContainer from "./HomePageContainer";
+import StorageContainer from "./StorageContainer";
 
 const App = (props) => {
-
   return (
     <BrowserRouter>
       <Routes>
@@ -20,6 +16,6 @@ const App = (props) => {
       </Routes>
     </BrowserRouter>
   );
-}
+};
 
 export default App;

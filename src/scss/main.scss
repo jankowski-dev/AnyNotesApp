@@ -135,19 +135,14 @@ li {
 }
 
 .form {
-  max-width: 500px;
+  min-width: 500px;
+  width: 600px;
   padding: 50px 60px;
-  background-color: white;
+  background-color: $basic-white;
 }
 
-.form-fill {
-  opacity: 0;
-  transition: all 1s;
-}
-
-.form-fill__active {
-  opacity: 1;
-  transition: all 1s;
+.form-content {
+  position: relative;
 }
 
 .form-header {
@@ -167,4 +162,16 @@ li {
 
 .header-tab__active {
   color: $basic-black;
+}
+
+/* Loader */
+
+.loader {
+  display: flex;
+  position: absolute;
+  background: rgba(241, 241, 241, 0.95);
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
 }
