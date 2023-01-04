@@ -140,6 +140,16 @@ li {
   background-color: white;
 }
 
+.form-fill {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.form-fill__active {
+  opacity: 1;
+  transition: all 1s;
+}
+
 .form-header {
   display: flex;
   align-items: center;
