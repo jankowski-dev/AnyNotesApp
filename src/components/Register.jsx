@@ -4,29 +4,23 @@ const Register = (props) => {
       <div className="form-description">Create user account for using our service. Create user account for using our service</div>
       <div className="form-input">
         <div className="input-wrapper">
-          <div className="label"></div>
-          <input type="text" />
+          <div className="label">Your e-mail</div>
+          <div className="input-field"><input type="text" /></div>
         </div>
         <div className="input-wrapper">
-          <div className="label"></div>
-          <input type="text" />
+          <div className="label">Password</div>
+          <div className="input-field"><input type="password" /></div>
         </div>
         <div className="input-wrapper">
-          <div className="label"></div>
-          <input type="text" />
-        </div>
-        <div className="input-wrapper">
-          <div className="label"></div>
-          <div className="capcha">22+45</div>
-          <input type="text" />
+          <div className="label">Repeat pass</div>
+          <div className="input-field"><input type="password" /></div>
         </div>
       </div>
-      70
       <div className="form-button">
-        <div className="checkbox-wrapper">
-          <input type="checkbox" /> Remember me
-        </div>
-        <div className="button">Create Account</div>
+        <a href="/">Forget password</a>
+        <button className="buttonForm">
+          <div className="buttonTitle">Create account</div>
+        </button>
       </div>
     </>
   );
