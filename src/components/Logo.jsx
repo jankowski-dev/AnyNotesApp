@@ -9,7 +9,7 @@ const Logo = () => {
         <>
             <div className="Logo">
                 <LogoSVG className="iconLogo" />
-                <div className="textLogo">AnyNotes</div>
+                <div className="textLogo">Anynotes</div>
             </div>
         </>
     )
